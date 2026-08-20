@@ -59,7 +59,7 @@ function DisplayRow() {
 
   return (
     <div className={styles.mainWrapper}>
-      <SlideShow title="Movie Suggestion" movies={movies.trending} />
+      <SlideShow title="Trending" movies={movies.trending} />
       <SlideShow title="popular on Netflix" movies={movies.netflixOriginals} />
       <SlideShow title="Action" movies={movies.action} />
       <SlideShow title="Top Rated" movies={movies.topRated} />
