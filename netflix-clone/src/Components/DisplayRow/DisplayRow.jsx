@@ -60,25 +60,13 @@ function DisplayRow() {
 
   return (
     <div className={styles.mainWrapper}>
-      <SlideShow
-        title="Netflix Trending"
-        movies={movies?.trending}
-      />
+      <SlideShow title="Flixora Trending" movies={movies?.trending} />
 
-      <SlideShow
-        title="Popular on Netflix"
-        movies={movies?.netflixOriginals}
-      />
+      <SlideShow title="Popular on Flixora" movies={movies?.netflixOriginals} />
 
-      <SlideShow
-        title="Action"
-        movies={movies?.action}
-      />
+      <SlideShow title="Action" movies={movies?.action} />
 
-      <SlideShow
-        title="Top Rated"
-        movies={movies?.topRated}
-      />
+      <SlideShow title="Top Rated" movies={movies?.topRated} />
     </div>
   );
 }
